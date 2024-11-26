@@ -1,0 +1,67 @@
+/* src/Feedback.css */
+.feedback-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-image: url('../public/assets/color3.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.feedback-container h2, .feedback-container h3 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  /*background-color: #007bff;*/
+  color: black;
+  background-color: white;
+  border: black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: gray;
+  border: black;
+}
+
+.feedback-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.feedback-list li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.feedback-list li p {
+  margin: 5px 0;
+}

@@ -1,0 +1,15 @@
+export const categories = [
+  "All",
+  "3D Arts",
+  "Applied Arts",
+  "Craft Arts",
+  "Decorative Arts",
+  "Digital Arts",
+  "Graphic Arts",
+  "Illustration Arts",
+  "Land Arts",
+  "Litrary Arts",
+  "Neon Arts",
+  "Painting Arts",
+  "Sketch Arts",
+];

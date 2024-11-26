@@ -1,0 +1,99 @@
+/* General Styles */
+.contact-page {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  
+}
+
+.contact-page h1 {
+  font-size: 2.9em;
+  margin-bottom: 20px;
+}
+
+.contact-page p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.contact-page form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-page label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.contact-page input[type="text"],
+.contact-page input[type="email"],
+.contact-page textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact-page textarea {
+  height: 150px;
+}
+
+.contact-page button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-page button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contact-page h1 {
+    font-size: 2em;
+  }
+
+  .contact-page p {
+    font-size: 1.1em;
+  }
+
+  .contact-page input[type="text"],
+  .contact-page input[type="email"],
+  .contact-page textarea {
+    font-size: 1em;
+  }
+
+  .contact-page button[type="submit"] {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-page h1 {
+    font-size: 1.5em;
+  }
+
+  .contact-page p {
+    font-size: 1em;
+  }
+
+  .contact-page input[type="text"],
+  .contact-page input[type="email"],
+  .contact-page textarea {
+    font-size: 0.9em;
+  }
+
+  .contact-page button[type="submit"] {
+    font-size: 1em;
+  }
+}

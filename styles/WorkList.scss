@@ -1,0 +1,34 @@
+/* @import "./variables.module.scss";
+@import "./breakpoints.scss";
+
+.work-list {
+  padding: 0 40px 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+
+  @include lg {
+    padding: 0 20px 120px;
+  }
+}
+*/
+
+@import "./variables.module.scss";
+@import "./breakpoints.scss";
+
+.work-list {
+  padding: 40px 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background-image: url('../public/assets/color.jpg'); // Add the path to your image here
+  background-size: cover; // Ensures the image covers the whole container
+  background-position: center; // Centers the background image
+  background-repeat: no-repeat; // Prevents the image from repeating
+
+  @include lg {
+    padding: 0 20px 120px;
+  }
+}

@@ -1,0 +1,35 @@
+@import "./variables.module.scss";
+@import "./breakpoints.scss";
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 60px;
+  border: 1px solid black;
+  border-radius: 75px;
+  border-width: 1px 0 1px 0;
+  background-image: url('../public/assets/color.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+
+  p {
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+
+    &:hover {
+      color: red;
+    }
+  }
+
+  .selected {
+    color: red;
+  }
+}
